@@ -347,33 +347,33 @@ img {
     border-radius: 20px;
 }
 
-ul {
+.pagination_web ul {
     margin-bottom: 0 !important;
 }
 
-.pagination {
+.pagination_web .pagination {
     display: flex;
     padding-left: 0;
     list-style: none;
     border-radius: .25rem;
 }
 
-dl, ol, ul {
+.pagination_web dl, .pagination_web ol, .pagination_web ul {
     margin-top: 0;
     margin-bottom: 1rem;
 }
 
-ul li:first-child {
+.pagination_web ul li:first-child {
     margin-right: 15px;
 }
 
-ul li:first-child, ul li:last-child {
+.pagination_web ul li:first-child, .pagination_web  ul li:last-child {
     background: #000;
     border-radius: 50%;
     padding: 1px 5px;
 }
 
-ul li a.page-link {
+.pagination_web ul li a.page-link {
     background: transparent;
     border-radius: 50px;
     color: #b3b3b3;
